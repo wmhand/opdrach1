@@ -22,10 +22,17 @@ echo "$day1 is de {$week}e dag van de week <br>";
 $month = date("F");
 $DayMonth = date("t");
 
-echo "de maand $month heeft in totaal $DayMonth dagen in de maand";
+echo "de maand $month heeft in totaal $DayMonth dagen in de maand <br>";
 
 
-if ()
+if (date("L") ==1) {
+    echo "het jaar" . date("Y") . "is een schrikkeljaar";
+}
+else  {
+    echo "het jaar" . date("{Y}") . "is geen schrikkeljaar";
+
+
+}
 
 
 
