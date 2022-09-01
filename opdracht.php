@@ -6,7 +6,7 @@
     </head>
 <body>
 
-<h1>hello world</h1>
+<h1> <b>H3 opdracht 1 </b></h1>
 <?php
 $today = date(" l j F Y");
 echo "vandaag is het $today <br>";
@@ -38,9 +38,34 @@ else  {
 
 
 ?>
+<h1> <b>H4 opdracht 1 </b></h1>
+
+<?php
+
+$time = date("H");
+
+
+if ($time > 6 && $time < 12 && $time === 12 ){
+    echo "het is ochtend";
+
+
+}if ($time > 12 && $time    < 18){
+    echo "het is middag";
+
+
+}if ($time > 18 && $time < 24){
+    echo "het is avond";
+
+
+}if ($time > 00 && $time < 6){
+    echo "het is nacht";
+
+
+}
 
 
 
+?>
 
 
 
